@@ -30,7 +30,7 @@ jobs:
     - run: npm ci
     - name: move into the react app
       run: | 
-        cd myFirstTestingApp 
+        cd mysecond 
         npm ci
         npx wait-on --timeout 60000
         npm run build --if-present
